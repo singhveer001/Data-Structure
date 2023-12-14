@@ -28,7 +28,7 @@ int main(){
 
 
     // Create Object --> dynamic allocation (Dynamically)
-    Hero *aditya = new Hero;
+    Hero* aditya = new Hero;
 
     cout<< "Number is :" <<  (*aditya).number << endl;
     cout<< " name is : "<< (*aditya).name <<endl;
@@ -38,7 +38,9 @@ int main(){
     cout<< " Name in other : "<< aditya -> name <<endl;
 
     // Changing value in Dynamic  allocation
+    // (*aditya).number = 70;
     aditya ->number =70;
+    // (*aditya).name ='H';
     aditya ->name ='H';
     cout<< " name Changes : "<< aditya -> name <<endl;
     cout<< "Number is Change:" <<  aditya -> number << endl;

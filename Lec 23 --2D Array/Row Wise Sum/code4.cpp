@@ -4,8 +4,8 @@ using namespace std;
 
 bool isPresent(int arr [] [4] , int target ,int m, int n){
 
-        for (int i = 0; i < 3; i++){
-             for (int j = 0; j < 4; j++)
+        for (int i = 0; i < m; i++){
+             for (int j = 0; j < n; j++)
         {
             if(arr[i][j]==target){
                 return 1;

@@ -6,10 +6,10 @@ using namespace std;
 void PrintColSum(int arr [] [4] ,int m, int n){
     cout<<"Printing Sum -->"<<endl;
     
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < m; i++)
     {
         int sum=0;
-        for (int j = 0; j < 4; j++)
+        for (int j = 0; j < n; j++)
         {
             sum += arr[i] [j] ;
         }
