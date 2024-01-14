@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 
         string name ;
-        cin>> name;
+        getline(cin,name);
 
         // Finding length
         cout<<"Length of string is "<< name.length()<< endl;
