@@ -69,4 +69,9 @@ int main(){
             cout<< "Not matching"<<endl;
         }
 
+        // Finding sentence of one string in another string
+        string str3 = "Veer is a good boy";
+        string str4 = "good";
+
+        cout<< str3.find(str4) <<endl;
 }
